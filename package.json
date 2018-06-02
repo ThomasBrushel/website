@@ -2,7 +2,7 @@
   "name": "static_react_site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://thomasbrushel.github.io/website/",
+  "homepage": "https://thomasbrushel.github.io/website",
   "dependencies": {
     "gh-pages": "^1.2.0",
     "react": "^16.3.2",
