@@ -1,0 +1,34 @@
+section {
+  &.section-md {
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  &.section-lg {
+    margin-top: 4em;
+    margin-bottom: 4em;
+  }
+}
+
+.section-img {
+  position: relative;
+  img {
+    max-width: 100%;
+    width: 100%;
+    height: 50vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .section-overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 50vh;
+    background-color: transparentize($color: #fbc531, $amount: .5)
+  }
+  .section-text-overlay {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+  }
+}

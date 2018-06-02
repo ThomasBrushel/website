@@ -1,0 +1,18 @@
+a {
+  text-decoration: none;
+  position: relative;
+  color: $black;
+  text-transform: uppercase;
+  &.callout-link {
+    &:after {
+      content: "";
+      position: absolute;
+      display: block;
+      top: 112%;
+      left: 0;
+      height: 1px;
+      width: 100%;
+      background-color: $black;
+    }
+  }
+}

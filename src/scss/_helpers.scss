@@ -1,0 +1,58 @@
+// Helper Classes
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.img-responsive {
+  width: 100%;
+  max-width: 100%;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.padding-sm {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.padding-lg {
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
+@media(max-width: 1000px) {
+  .pad-me-o-small {
+    margin-bottom: 2em;
+  }
+}

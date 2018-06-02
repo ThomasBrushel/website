@@ -1,0 +1,75 @@
+// Header Styles
+
+header {
+  background-color: white;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+nav {
+  ul {
+    li {
+      display: inline-block;
+      margin-right: .5em;
+      padding: 1.5em;
+      &:last-child {
+          margin-right: 0;
+       }
+      a {
+        transition: 1s;
+        color: $black;
+        font-weight: 900;
+        text-decoration: none;
+        text-transform: uppercase;
+        display: block;
+        &:hover {
+          transform: translateY(10%);
+        }
+      }
+    }
+  }
+}
+
+.logo {
+  margin-top: .3em;
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+#nav-toggle {
+  display: none;
+}
+
+.navigation-button {
+  display: none;
+}
+
+@media(max-width: 1000px) {
+  .navigation-button {
+    display: block;
+    color: $black;
+    cursor: pointer;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    margin-top: -1.8em;
+    font-size: 2em;
+  }
+  nav ul li  {
+   display: none;
+  }
+  #nav-toggle {
+    display: none;
+    &:checked {
+      ~ nav ul li {
+        display: block;
+        padding: 1em;
+        &:first-child {
+          margin-top: 1.5em;
+        }
+      }
+    }
+  }
+}

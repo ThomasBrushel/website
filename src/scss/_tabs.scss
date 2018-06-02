@@ -1,0 +1,26 @@
+// Menu Tabs
+#tab1,
+#tab2 {
+  display: none;
+}
+
+#content1,
+#content2 {
+  display: none;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2 {
+  display: block;
+}
+
+.tab {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: .5em;
+  &:hover {
+    transition: all 1s;
+    transform: translateX(10px);
+  }
+}

@@ -1,0 +1,19 @@
+// Button Styles
+
+.btn {
+  padding: 1em 4em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border: none;
+  font-size: 14px;
+  text-transform: uppercase;
+  &.primary {
+    background: $black;
+    color: white;
+    &:hover {
+      -webkit-transition: 1s;
+      transition: 1s;
+      background: lighten($black, 10%);
+    }
+  }
+}
