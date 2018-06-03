@@ -8,12 +8,15 @@
   font-size: 14px;
   text-transform: uppercase;
   &.primary {
-    background: $black;
+    background: #fbc531;
     color: white;
     &:hover {
       -webkit-transition: 1s;
       transition: 1s;
-      background: lighten($black, 10%);
+      background: darken(#fbc531, 10%);
+    }
+    &:active {
+      transform: scale(.95);
     }
   }
 }

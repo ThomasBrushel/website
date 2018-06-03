@@ -65,9 +65,9 @@ nav {
     &:checked {
       ~ nav ul li {
         display: block;
-        padding: 1em;
+        padding: .5em;
         &:first-child {
-          margin-top: 1.5em;
+          margin-top: 1em;
         }
       }
     }
