@@ -205,8 +205,8 @@ nav ul li {
     text-decoration: none;
     text-transform: uppercase;
     display: block; }
-    nav ul li a:hover {
-      transform: translateY(10%); }
+    nav ul li a:active {
+      transform: scale(0.9); }
 
 .logo {
   margin-top: .3em; }
@@ -305,10 +305,11 @@ footer {
   position: relative;
   display: flex;
   justify-content: center;
-  margin-bottom: .5em; }
-  .tab:hover {
-    transition: all 1s;
-    transform: translateX(10px); }
+  margin-bottom: .5em;
+  user-select: none;
+  transition: .5s; }
+  .tab:active {
+    transform: scale(0.9); }
 
 .menu-grouping {
   background-color: #eee;

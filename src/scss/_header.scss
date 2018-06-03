@@ -21,8 +21,8 @@ nav {
         text-decoration: none;
         text-transform: uppercase;
         display: block;
-        &:hover {
-          transform: translateY(10%);
+        &:active {
+          transform: scale(.9);
         }
       }
     }
