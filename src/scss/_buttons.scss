@@ -9,7 +9,7 @@
   text-transform: uppercase;
   &.primary {
     background: #fbc531;
-    color: white;
+    color: $black;
     &:hover {
       -webkit-transition: 1s;
       transition: 1s;

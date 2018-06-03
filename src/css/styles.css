@@ -17,7 +17,7 @@
   text-transform: uppercase; }
   .btn.primary {
     background: #fbc531;
-    color: white; }
+    color: #333; }
     .btn.primary:hover {
       -webkit-transition: 1s;
       transition: 1s;
