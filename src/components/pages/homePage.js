@@ -20,7 +20,7 @@ class Homepage extends Component {
             <div className="col-6 pad-me-o-small">
               <h1 className="heading-level-one">Our Story</h1>
               <p>Humblebrag keytar cliche activated charcoal venmo brooklyn beard. Craft beer everyday carry man bun mumblecore sartorial adaptogen affogato cray butcher glossier iceland. Iceland whatever brooklyn [...]</p>
-              <a className="callout-link" href={"https://thomasbrushel.com"}>Read Full Story</a>
+              <a className="callout-link" href={"/"}>Read Full Story</a>
             </div>
             <div className="col-6">
               <img className="img-responsive" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1385789/real-bruch-image.jpg" alt={"Brunch"} />
@@ -49,7 +49,7 @@ class Homepage extends Component {
             <div className="col-6">
               <h1 className="heading-level-one">Culinary Delight</h1>
               <p>Venmo humblebrag artisan, lumbersexual small batch iPhone pug adaptogen locavore keytar stumptown mumblecore polaroid single-origin coffee gluten-free. Salvia letterpress kale chips 8-bit knausgaard intelligentsia yr direct trade banh mi. Pug blue bottle food truck shaman twee, green juice.</p>
-              <a className="callout-link" href={"https://thomasbrushel.com"}>Read Full Story</a>
+              <a className="callout-link" href={"/"}>Read Full Story</a>
             </div>
             
           </div>
